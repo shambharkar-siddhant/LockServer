@@ -1,0 +1,2 @@
+run =  CGO_ENABLED=1 go run ./cmd/lockserver
+traffic simulation = go run ./cmd/lockload --clients 80 --duration 20s --ttl 800ms --hold 20ms --failrate 0.05

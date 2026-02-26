@@ -50,6 +50,7 @@ LockServer addresses this using:
 
 **Acquire**
 
+
 ```python
 POST /v1/locks/{lock}/acquire
 ```
